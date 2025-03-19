@@ -37,7 +37,7 @@ int main(){
     // Agora vamos fazer a impressão dos dados da Carta 1
     
     printf("Carta 1 \n");
-    printf("Estado: %s\n", estado);
+    printf("Estado: %c\n", estado);
     printf("Código da carta: %s\n", codigo_carta);
     printf("Nome da cidade: %s\n", nome_cidade);
     printf("População: %d\n", populacao);
