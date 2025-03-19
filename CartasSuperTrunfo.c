@@ -84,6 +84,6 @@ int main(){
     printf("PIB: %.2f\n", pib);
     printf("Número de pontos turísticos: %d\n", pontos_turisticos);
 
-
+    // fianlizando o jogo
     return 0;
 }
