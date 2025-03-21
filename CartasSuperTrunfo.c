@@ -13,7 +13,8 @@ int main(){
     char nome_cidade[20];
     int populacao, pontos_turisticos;
     float area_km, pib;
-
+    float densidade_populacional, pib_per_capita;
+    
     // Digitar os dados da Carta 1
 
     printf("Carta 1 \n");
@@ -38,6 +39,10 @@ int main(){
     printf("Digite a quantidade de pontos turístico: \n"); // Digitar a quantidade de pontos turísticos da cidade da carta 1
     scanf("%d", &pontos_turisticos);
 
+    densidade_populacional = populacao / area_km;
+
+    pib_per_capita = pib / populacao;
+
     // Agora vamos fazer a impressão dos dados da Carta 1
     
     printf("Carta 1 \n");
@@ -48,6 +53,8 @@ int main(){
     printf("Área em Km²: %.2f\n", area_km);
     printf("PIB: %.2f\n", pib);
     printf("Número de pontos turísticos: %d\n", pontos_turisticos);
+    printf("Densidade populaciona: %.2f\n", densidade_populacional);
+    printf("PIB per capita: %.2f\n", pib_per_capita);
 
     // Digitar os dados da Carta 2
 
@@ -73,6 +80,10 @@ int main(){
     printf("Digite a quantidade de pontos turístico: \n"); // Digitar a quantidade de pontos turísticos da cidade da carta 2
     scanf("%d", &pontos_turisticos);
 
+    densidade_populacional = populacao / area_km;
+
+    pib_per_capita = pib / populacao;
+
     // Agora vamos fazer a impressão dos dados da Carta 2
     
     printf("Carta 2 \n");
@@ -80,9 +91,11 @@ int main(){
     printf("Código da carta: %s\n", codigo_carta);
     printf("Nome da cidade: %s\n", nome_cidade);
     printf("População: %d\n", populacao);
-    printf("Área em Km²: %.2f\n", area_km);
-    printf("PIB: %.2f\n", pib);
+    printf("Área: %.2f Km²\n", area_km);
+    printf("PIB: %.2f reais\n", pib);
     printf("Número de pontos turísticos: %d\n", pontos_turisticos);
+    printf("Densidade populaciona: %.2f hab/km²\n", densidade_populacional);
+    printf("PIB per capita: %.2f reais\n", pib_per_capita);
 
     // fianlizando o jogo
     return 0;
