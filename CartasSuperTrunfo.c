@@ -53,7 +53,7 @@ int main(){
     printf("Área em Km²: %.2f\n", area_km);
     printf("PIB: %.2f\n", pib);
     printf("Número de pontos turísticos: %d\n", pontos_turisticos);
-    printf("Densidade populaciona: %.2f\n", densidade_populacional);
+    printf("Densidade populacional: %.2f\n", densidade_populacional);
     printf("PIB per capita: %.2f\n", pib_per_capita);
 
     // Digitar os dados da Carta 2
@@ -94,7 +94,7 @@ int main(){
     printf("Área: %.2f Km²\n", area_km);
     printf("PIB: %.2f reais\n", pib);
     printf("Número de pontos turísticos: %d\n", pontos_turisticos);
-    printf("Densidade populaciona: %.2f hab/km²\n", densidade_populacional);
+    printf("Densidade populacional: %.2f hab/km²\n", densidade_populacional);
     printf("PIB per capita: %.2f reais\n", pib_per_capita);
 
     // fianlizando o jogo
