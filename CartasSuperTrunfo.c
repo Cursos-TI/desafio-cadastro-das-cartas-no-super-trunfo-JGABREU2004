@@ -114,9 +114,9 @@ int main(){
     printf("PIB per capita: %.2f reais\n", pib_per_capita2);
     printf("Super Poder: %.2f\n", super_poder2);
 
-    // Comparando as cartas 1 e 2
+    // Comparação das cartas usando os operadores relacionados
 
-    printf("")
+    printf("\n**** Comparação das Cartas ***\n");
 
     // finalizando o jogo
 
