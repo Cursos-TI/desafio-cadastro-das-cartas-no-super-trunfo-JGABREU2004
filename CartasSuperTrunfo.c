@@ -114,11 +114,19 @@ int main(){
     printf("PIB per capita: %.2f reais\n", pib_per_capita2);
     printf("Super Poder: %.2f\n", super_poder2);
 
-    // Comparação das cartas usando os operadores relacionados
+    // Comparação das cartas usando operadores relacionados
+    
+    printf("\n*** Comparação das Cartas ***\n");
+    printf("População: Carta %d venceu\n", (populacao1 > populacao2) * 1 + (populacao2 >= populacao1) * 2);
+    printf("Área: Carta %d venceu\n", (area1 > area2) * 1 + (area2 >= area1) * 2);
+    printf("PIB: Carta %d venceu\n", (pib1 > pib2) * 1 + (pib2 >= pib1) * 2);
+    printf("Pontos turísticos: Carta %d venceu\n", (pontos_turisticos1 > pontos_turisticos2) * 1 + (pontos_turisticos2 >= pontos_turisticos1) * 2);
+    printf("Densidade populacional: Carta %d venceu\n", (densidade_populacional1 < densidade_populacional2) * 1 + (densidade_populacional2 <= densidade_populacional1) * 2);
+    printf("PIB per capita: Carta %d venceu\n", (pib_per_capita1 > pib_per_capita2) * 1 + (pib_per_capita2 >= pib_per_capita1) * 2);
+    printf("Super Poder: Carta %d venceu\n", (super_poder1 > super_poder2) * 1 + (super_poder2 >= super_poder1) * 2);
+ 
+     // finalizando o jogo Super Trunfo
 
-    printf("\n**** Comparação das Cartas ***\n");
-
-    // finalizando o jogo
 
     return 0;
 }
